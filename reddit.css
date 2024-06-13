@@ -1,0 +1,27 @@
+.res-expando-box {width: 100%;height: fit-content;aspect-ratio: 16/9;}
+
+.res-expando-box > * {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.res-iframe-expando {
+    width: inherit;
+    height: inherit;
+}
+
+.res-iframe-expando div {
+    width: inherit;
+    height: fit-content;
+    aspect-ratio: 16/9;
+}
+
+.res-media-zoomable {
+    width: inherit !important;
+    height: 100% !important;
+    clear: right;;
+    
+}
+
+iframe.res-media-zoomable {}
